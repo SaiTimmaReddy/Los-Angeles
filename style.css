@@ -28,7 +28,7 @@ a {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 200px) and (max-width: 1200px) {
   body {
     width: 100%;
   }
@@ -81,7 +81,7 @@ a {
   width: 40%;
   position: absolute;
   left: 30%;
-  top: 26%;
+  top: 16%;
   z-index: 1;
 }
 @media screen and (max-width: 1200px) {
@@ -144,7 +144,7 @@ a {
   width: 138px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 400px) {
+@media screen and (min-width: 200px) and (max-width: 1200px) {
   .header2 .content1 {
     left: 9%;
   }
@@ -162,7 +162,7 @@ a {
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 1200px) {
+@media screen and (min-width: 200px) and (max-width: 1200px) {
   .header2 .nav2 {
     margin: 0;
     padding-top: 4px;
@@ -255,7 +255,7 @@ a {
   display: inline;
 }
 
-@media screen and (min-width: 320px) and (max-width: 400px) {
+@media screen and (min-width: 200px) and (max-width: 1200px) {
   .history .number1 {
     position: absolute;
     left: 3%;
@@ -301,7 +301,7 @@ a {
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 1200px) {
+@media screen and (min-width: 200px) and (max-width: 1200px) {
   .history .number1 {
     left: 10%;
     font: 120px sans-serif;
@@ -387,7 +387,7 @@ a {
   line-height: 36px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 400px) {
+@media screen and (min-width: 200px) and (max-width: 1200px) {
   .header3 .number2 {
     left: 3%;
     font-size: 100px;
@@ -408,7 +408,7 @@ a {
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 1200px) {
+@media screen and (min-width: 200px) and (max-width: 1200px) {
   .header3 .number2 {
     left: 5%;
     top: 4%;
